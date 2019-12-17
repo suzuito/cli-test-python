@@ -1,0 +1,4 @@
+.coverage
+.vscode
+.pytest_cache
+test.xml

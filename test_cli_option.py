@@ -1,4 +1,5 @@
 from click.testing import CliRunner
+from click.exceptions import UsageError
 from cli_option import cli
 
 

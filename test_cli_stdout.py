@@ -8,6 +8,8 @@ def test_cli_output():
 
 
 def test_cli_output_separatly():
+    # 標準出力と標準エラー出力を分離して出力をテストしたい場合、
+    # `CliRunner(mix_stderr=False)`とする。
     result = CliRunner(mix_stderr=False).invoke(cli)
     assert result.stdout == 'こんにちは\n'
     assert result.stderr == '世界!\n'

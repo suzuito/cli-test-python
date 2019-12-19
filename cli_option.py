@@ -1,5 +1,7 @@
 import click
 
+click.exceptions.UsageError.exit_code = 100
+
 
 @click.command()
 @click.argument('src', nargs=-1)

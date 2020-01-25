@@ -6,8 +6,11 @@ name = "pypi"
 [packages]
 click = "*"
 colorama = "*"
+requests = "*"
+mysql-connector-python = "*"
 
 [dev-packages]
 pytest = "*"
 pylint = "*"
 autopep8 = "*"
+requests-mock = "*"
